@@ -18,9 +18,9 @@ Usa API Google para a geolocalização e API Foursquare para os restaurantes.
 ## Endpoints:
 
 **`GET /restaurants`**
+---
 
-
-retorna os dados de todos os restaurantes salvos no banco de dados
+Retorna os dados de todos os restaurantes salvos no banco de dados
 
 ### Response
 
@@ -47,12 +47,12 @@ retorna os dados de todos os restaurantes salvos no banco de dados
         }
 ```
 
-
+&nbsp;
 
 `POST /restaurants`
 ---
 
-salva novo restaurante no banco de dados
+Salva novo restaurante no banco de dados
 
 ### Response
 
@@ -67,12 +67,12 @@ salva novo restaurante no banco de dados
 }
 ```
 
-
+&nbsp;
 
 `GET /restaurant/<int:id>`
 ---
 
-retorna os dados do restaurante especificado pelo seu *id*
+Retorna os dados do restaurante especificado pelo seu *id*
 
 ### Response
 
@@ -87,11 +87,12 @@ retorna os dados do restaurante especificado pelo seu *id*
 }
 ```
 
+&nbsp;
 
 `PUT /restaurant/<int:id>`
 ---
 
-edita um ou mais dados do restaurante especificado pelo seu *id*
+Edita um ou mais dados do restaurante especificado pelo seu *id*
 
 ### Response
 
@@ -105,11 +106,12 @@ edita um ou mais dados do restaurante especificado pelo seu *id*
             "restaurant_name": "fake test name"
         }
 ```
+&nbsp;
 
 `DELETE /restaurant/<int:id>`
 ---
 
-deleta dados do restaurante especificado pelo seu *id*
+Deleta dados do restaurante especificado pelo seu *id*
 
 ### Response
 
