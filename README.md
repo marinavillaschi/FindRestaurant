@@ -16,10 +16,9 @@ Usa API Google para a geolocalização e API Foursquare para os restaurantes.
 &nbsp;
 
 ## Endpoints:
----
 
 **`GET /restaurants`**
----
+
 
 retorna os dados de todos os restaurantes salvos no banco de dados
 
